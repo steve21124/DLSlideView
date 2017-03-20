@@ -20,7 +20,7 @@ DLSlideView对常见的顶部Tab页点击、滑动分页做了封装。 它使�
   s.platform     = :ios, "5.0"
   s.ios.deployment_target = "5.0"
 
-  s.source       = { :git => "https://github.com/agdsdl/DLSlideView.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/steve21124/DLSlideView.git" }
   s.source_files  = "DLSlideView/**/*.{m,h}"
 
   s.requires_arc = true
