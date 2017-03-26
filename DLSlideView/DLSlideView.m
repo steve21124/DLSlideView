@@ -48,9 +48,9 @@
     return oldIndex_;
 }
 - (void)setSelectedIndex:(NSInteger)selectedIndex{
-    if (selectedIndex != oldIndex_) {
+  //  if (selectedIndex != oldIndex_) {
         [self switchTo:selectedIndex];
-    }
+   // }
 }
 //- (void)setViewControllers:(NSArray *)vcs{
 //    _viewControllers = vcs;
@@ -108,9 +108,9 @@
 //    }
 //}
 - (void)switchTo:(NSInteger)index{
-    if (index == oldIndex_) {
-        return;
-    }
+    //if (index == oldIndex_) {
+    //    return;
+   // }
     if (isSwitching_) {
         return;
     }
