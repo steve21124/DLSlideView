@@ -194,7 +194,7 @@
 }
 
 - (void)setSelectedIndex:(NSInteger)selectedIndex{
-    if (_selectedIndex != selectedIndex) {
+   // if (_selectedIndex != selectedIndex) {
         if (_selectedIndex >= 0) {
             //DLScrollTabbarItem *fromItem = [self.tabbarItems objectAtIndex:_selectedIndex];
             UILabel *fromLabel = (UILabel *)[scrollView_ viewWithTag:kLabelTagBase+_selectedIndex];
@@ -232,7 +232,7 @@
 //        trackView_.frame = CGRectMake(trackX, trackView_.frame.origin.y, CGRectGetWidth(trackView_.bounds), CGRectGetHeight(trackView_.bounds));
         
         _selectedIndex = selectedIndex;
-    }
+  //  }
 }
 
 - (void)tapAction:(UITapGestureRecognizer *)tap{
